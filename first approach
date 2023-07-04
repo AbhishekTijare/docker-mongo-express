@@ -1,6 +1,7 @@
 
  docker pull mongo
  docker pull mongo-express
+ docker network create mongo-network
  
  docker run -d \
 > -p 8081:8081 \
